@@ -1,0 +1,7 @@
+app:
+  name: "inventory-common"
+  mode: "dev"
+
+jwt:
+  secret: "supersecretkey"
+  expire: 3600

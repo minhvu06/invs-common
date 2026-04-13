@@ -1,0 +1,35 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output of the go coverage tool
+*.coverprofile
+
+# Go build artifacts
+/bin/
+/build/
+
+# Go module files
+/vendor/
+
+# GoLand / JetBrains IDE
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+*.DS_Store
+*.bak
+
+# go-zero generated files (optional)
+internal/types/*.go
