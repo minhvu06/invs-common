@@ -2,8 +2,9 @@ package error
 
 import (
 	"encoding/json"
-	"invs-common/src/model"
 	"net/http"
+
+	"github.com/minhvu06/invs-common/src/model"
 )
 
 func HttpException(w http.ResponseWriter, code int, msg string) {

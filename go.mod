@@ -1,4 +1,4 @@
-module invs-common
+module github.com/minhvu06/invs-common
 
 go 1.26.2
 

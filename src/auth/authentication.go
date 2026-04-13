@@ -1,8 +1,9 @@
 package auth
 
 import (
-	"invs-common/src/config"
 	"time"
+
+	"github.com/minhvu06/invs-common/src/config"
 
 	"github.com/golang-jwt/jwt/v4"
 )
